@@ -4,7 +4,7 @@ A script that lets you quickly download images from Pinterest and use them as re
 
 ## Features
 
-- Downloads images from Pinterest by keywords, boards, or accounts  
+- Downloads images from Pinterest by link  
 - Connects to a local SDXL setup via `diffusers`  
 - Launches a Gradio interface for reference-based generation  
 - Allows adjusting parameters such as strength, steps, seed, guidance, and more  
