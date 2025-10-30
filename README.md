@@ -1,20 +1,20 @@
-# Pinterest → Stable Diffusion XL + Lora (Gradio UI)
+# Pinterest → Stable Diffusion XL + LoRA (Gradio UI)
 
-Скрипт, который позволяет быстро скачать изображения с Pinterest и использовать их как референсы для генерации через **Stable Diffusion XL** с удобным интерфейсом на **Gradio**.
+A script that lets you quickly download images from Pinterest and use them as references for generation with **Stable Diffusion XL**, featuring a convenient **Gradio** interface.
 
-## Что умеет
+## Features
 
-- качает картинки с Pinterest по ключевым словам, доскам или аккаунтам;  
-- подключается к локальной SDXL через `diffusers`;  
-- поднимает Gradio-интерфейс для генерации по референсу;  
-- позволяет настраивать strength, steps, seed, guidance и т.д.
+- Downloads images from Pinterest by keywords, boards, or accounts  
+- Connects to a local SDXL setup via `diffusers`  
+- Launches a Gradio interface for reference-based generation  
+- Allows adjusting parameters such as strength, steps, seed, guidance, and more  
 
 
 <img width="401" height="339" alt="image" src="https://github.com/user-attachments/assets/49281bb3-2c39-4de6-a4a8-c3a626e58a2e" />
 <img width="288" height="349" alt="image" src="https://github.com/user-attachments/assets/396ca627-f3d9-4f88-bb85-2cbea92aa325" />
 
 
-## Установка
+## Installation
 1. Download Python 310
 2. python -m venv .venv 
 3. .\.venv\Scripts\Activate.ps1
